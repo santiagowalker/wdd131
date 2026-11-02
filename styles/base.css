@@ -15,10 +15,14 @@ body {
     color: var(--text-color);
 }
 
-header #course-title {
+header{
+    margin: 0 auto;
+    color: var(--card-color);
+}
+
+#course-title {
     display: block;
     text-align: center;
-    color: var(--card-color);
     background-color: var(--primary-color);
     padding: 2rem;
     font-size: 2rem;
@@ -34,10 +38,10 @@ nav {
 
 nav a {
     display: block;
-    color: var(--card-color);
     text-align: center;
     padding: 1rem;
     text-decoration: none;
+    color: var(--card-color);
 }
 
 nav a:hover {
