@@ -5,6 +5,10 @@
         align-items: center;
     }
 
+    header h2{
+        font-size: 2rem;
+    }
+
     #menu {
         display: none;
     }
