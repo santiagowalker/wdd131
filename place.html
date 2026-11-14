@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazil</title>
+    <meta name="description" content="This is a description of the page.">
+    <meta name="author" content="Santiago Walker">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+</head>
+
+<body>
+    <header>
+        <h1>Brazil</h1>
+    </header>
+    <main>
+        <picture class="hero">
+            <source srcset="images/brazil.webp" media="(min-width: 800px)">
+            <img src="images/brazil-small.webp" alt="Brazil" width="700" height="933">
+        </picture>
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li>
+                    <span class="label">Area:</span>
+                    <span class="value">8,509,360.85 km²</span>
+                </li>
+                <li>
+                    <span class="label">Population:</span>
+                    <span class="value">214,211,951</span>
+                </li>
+                <li>
+                    <span class="label">Capital:</span>
+                    <span class="value">Brasília</span>
+                </li>
+                <li>
+                    <span class="label">Languages:</span>
+                    <span class="value">Portuguese</span>
+                </li>
+                <li>
+                    <span class="label">Currency:</span>
+                    <span class="value">Brazilian Real (BRL)</span>
+                </li>
+                <li>
+                    <span class="label">Time Zone:</span>
+                    <span class="value">UTC-3 to UTC-5</span>
+                </li>
+                <li>
+                    <span class="label">Calling Code:</span>
+                    <span class="value">+55</span>
+                </li>
+                <li>
+                    <span class="label">Internet TLD:</span>
+                    <span class="value">.br</span>
+                </li>
+            </ul>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather.svg" alt="Weather Icon" width="100" height="100">
+            <ul>
+                <li>
+                    <span class="label">Temperature:</span>
+                    <span class="value">27°C</span>
+                </li>
+                <li>
+                    <span class="label">Conditions:</span>
+                    <span class="value">Sunny</span>
+                </li>
+                <li>
+                    <span class="label">Wind:</span>
+                    <span class="value">10 km/h</span>
+                </li>
+                <li>
+                    <span class="label">Wind Chill:</span>
+                    <span id="windchill" class="value"></span>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Santiago Walker | Argentina</p>
+        <p id="lastModified"> </p>
+    </footer>
+</body>
+
+</html>
