@@ -1,21 +1,3 @@
-:root {
-    --primary-color: #2F6B3C;
-    --secondary-color: #2f5c8a;
-    --accent-color: #F2C84B;
-    --background-color: #F7F7F2;
-    --card-color: #FFFFFF;
-    --text-color: #24313A;
-    --light-accent: #DCE8F2;
-    --heading-font: "Lora",
-        Georgia,
-        serif;
-    --body-font:
-        "Inter",
-        Arial,
-        sans-serif;
-}
-
-
 @media screen and (min-width: 800px) {
     main {
         position: relative;
