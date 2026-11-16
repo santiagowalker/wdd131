@@ -87,6 +87,6 @@ footer {
 }
 
 #lastModified {
-    color: var(--accent-color);
+    color: var(--card-color);
     font-size: 14px;
 }
