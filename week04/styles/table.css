@@ -1,0 +1,33 @@
+table{
+    margin:0 auto;
+    width: 25rem;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: .75rem;
+    border: 1px solid #454545;
+}
+.r2 th{
+    background-color:rgb(82, 82, 82);
+}
+thead tr:nth-child(2) th:first-child{
+    background-color: black;
+}
+
+td{
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: .25rem;
+}
+
+tbody tr:nth-child(2){
+    background-color: #f2f2f2;
+}
+
+caption{
+    caption-side: bottom;
+}
