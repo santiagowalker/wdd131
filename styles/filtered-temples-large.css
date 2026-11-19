@@ -1,0 +1,38 @@
+@media screen and (min-width:500px) {
+
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    header h2{
+        font-size: 2rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        
+    }
+
+    nav {
+        padding: 0;
+        margin-right: 2rem;
+        margin-left: auto;
+    }
+
+    .container{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    figure{
+        margin: 0 auto;
+    }
+
+    figcaption{
+        font-size: smaller;
+    }
+}
